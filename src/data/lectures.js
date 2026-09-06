@@ -1,0 +1,30 @@
+// Yale Open Courses — Financial Markets (ECON 252), Robert Shiller
+// https://oyc.yale.edu/economics/econ-252-11
+export const lectures = [
+  { id: 1, title: 'Introduction and What this Course Will Do for You and Your Purposes', topic: 'Course overview: why financial markets matter, the role of finance in society, and the goals of the course.' },
+  { id: 2, title: 'Risk and Financial Crises', topic: 'The nature of financial risk, historical financial crises, and why crises recur.' },
+  { id: 3, title: 'Technology and Invention in Finance', topic: 'Financial innovation as a technology, the history of financial inventions, and their societal impact.' },
+  { id: 4, title: 'Portfolio Diversification and Supporting Financial Institutions', topic: 'Modern portfolio theory, diversification, covariance/correlation of returns, and the institutions that make diversification possible.' },
+  { id: 5, title: 'Insurance, the Archetypal Risk Management Institution: Its Opportunities and Vulnerabilities', topic: 'The economics of insurance, moral hazard, adverse selection, and the institutional structure of insurance markets.' },
+  { id: 6, title: 'Guest Speaker: David Swensen', topic: 'Endowment management, the "Yale Model" of institutional investing, and asset allocation strategy for long-horizon investors.' },
+  { id: 7, title: 'Efficient Markets', topic: 'The efficient markets hypothesis, random walk theory of stock prices, and evidence for and against market efficiency.' },
+  { id: 8, title: 'Theory of Debt, Its Proper Role, Leverage Cycles', topic: 'Debt contracts, the role of leverage, collateral, and leverage cycles in the economy.' },
+  { id: 9, title: 'Corporate Stocks', topic: 'Valuation of equities, corporate governance, dividends, and the rights and risks of stockholders.' },
+  { id: 10, title: 'Real Estate', topic: 'Real estate as an asset class, housing markets, mortgages, and the mechanics of real estate finance.' },
+  { id: 11, title: 'Behavioral Finance and the Role of Psychology', topic: 'Cognitive biases, herd behavior, and how psychology explains deviations from rational financial decision-making.' },
+  { id: 12, title: 'Misbehavior, Crises, Regulation and Self Regulation', topic: 'Financial fraud and misbehavior, the case for regulation, and the limits of self-regulation.' },
+  { id: 13, title: 'Banks', topic: 'The economic function of banks, fractional reserve banking, bank runs, and banking regulation.' },
+  { id: 14, title: 'Guest Speaker Maurice "Hank" Greenberg', topic: 'The insurance industry from an industry leader\'s perspective, building a global insurance enterprise, and industry risk management.' },
+  { id: 15, title: 'Forward and Futures Markets', topic: 'Forward and futures contracts, hedging, speculation, and price discovery in derivatives markets.' },
+  { id: 16, title: 'Guest Speaker Laura Cha', topic: 'Securities regulation and exchange governance, with a focus on the development of capital markets in Asia.' },
+  { id: 17, title: 'Options Markets', topic: 'Call and put options, option pricing intuition, and the uses of options for hedging and speculation.' },
+  { id: 18, title: 'Monetary Policy', topic: 'Central banking, monetary policy tools, interest rate setting, and the relationship between monetary policy and financial markets.' },
+  { id: 19, title: 'Investment Banks', topic: 'The role of investment banks, underwriting, mergers and acquisitions, and the structure of the investment banking industry.' },
+  { id: 20, title: 'Professional Money Managers and Their Influence', topic: 'Mutual funds, hedge funds, active vs. passive management, and the influence of professional money managers on markets.' },
+  { id: 21, title: 'Exchanges, Brokers, Dealers, Clearinghouses', topic: 'Market microstructure: how exchanges, brokers, dealers, and clearinghouses facilitate trading and reduce counterparty risk.' },
+  { id: 22, title: 'Public and Non-Profit Finance', topic: 'Government finance, municipal bonds, and the financial management of non-profit and public institutions.' },
+  { id: 23, title: 'Finding Your Purpose in a World of Financial Capitalism', topic: 'Reflections on the role of finance in society and finding meaningful purpose within a career in financial capitalism.' },
+].map((lecture) => ({
+  ...lecture,
+  videoUrl: `https://oyc.yale.edu/economics/econ-252-11/lecture-${lecture.id}`,
+}))
